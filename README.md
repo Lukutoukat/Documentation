@@ -10,7 +10,7 @@
 
 ### In-person Meetings
 
-- Tuesday 14:00 -> 17:00
+- Tuesday 14:00 -> 17:00 in Luola 
 - With the customer every 2nd Thursday at 16:00 (starting at 17.9)
 
 ### Sprints
