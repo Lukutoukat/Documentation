@@ -29,7 +29,7 @@ Branches are
 ### Pull Requests
 
 - PRs created when pushing to `staging` or `production`
-- Two reviewers. One review is enough to push.
+- Assign two random reviewers, preferably not involved with the PR. One review is enough to push.
 
 ### Definition of Done
 
