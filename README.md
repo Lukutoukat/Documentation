@@ -20,15 +20,24 @@
 
 ### Branching
 
-Branches are
-- `develop` for merging features in development
-- `staging` for pushing features to staging env
-- `production` for pushing features to production env
-- **Feature branches** for each issue / task, which are then merged into `develop`
+There are two main branches:
+
+**dev** (staging)
+- Development branch used for active feature development
+- All new features are developed against this branch
+- This branch is deployed into our `staging` environment on the k8s cluster
+- Lint and tests must pass on PRs before merging back into dev
+
+**main** (production)
+- The primary production branch
+- Only accepts PRs from the `dev` branch. Features are first finished on the `dev` branch and then merged into this branch in bulk.
+- Lint and test must pass on PRs before merging from `dev`
+
+The flow is: `dev` -(new branch)-> `feat/my-feature` -(PR)-> `dev` -(PR)-> `main`
 
 ### Pull Requests
 
-- PRs created when pushing to `staging` or `production`
+- PRs created when pushing to `main` and `dev`
 - Assign two random reviewers, preferably not involved with the PR. One review is enough to push.
 
 ### Definition of Done
@@ -36,7 +45,7 @@ Branches are
 - Passing tests
 - Proper documentation
 - Clean code
-- Merged into `staging` or `production`
+- Merged into `dev` (staging) or `main` (production)
 
 ### Code Standards
 
