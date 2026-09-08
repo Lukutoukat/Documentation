@@ -18,6 +18,9 @@
 - In GitHub project
 - 2 weeks, (Sprint 0) 31.8 -> 16.9, (Sprint 1) 17.9 -> 1.10 ...
 
+### Pushing to main
+- All changes must be pushed to main no later than Wednesday at 5:00 PM before the customer meeting.
+
 ### Branching
 
 There are two main branches:
