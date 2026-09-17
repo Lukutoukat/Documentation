@@ -15,7 +15,7 @@
 
 ### Sprints
 
-- In GitHub project
+- In GitHub project, backlogs in Trello
 - 2 weeks, (Sprint 0) 31.8 -> 16.9, (Sprint 1) 17.9 -> 1.10 ...
 
 ### Pushing to main
